@@ -1,0 +1,9 @@
+.box {
+  height: 100px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: pink;
+  /* display: inline-block; */
+  /* display: inline; */
+  display: block;
+}

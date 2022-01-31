@@ -1,0 +1,28 @@
+.box {
+  width: 600px;
+  height: auto;
+  border: 2px solid black;
+  font-size: 0;
+}
+
+.innerbox {
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  background-color: #ccc;
+  display: inline-block;
+}
+.borderbox {
+  border: 1px solid red;
+}
+.one {
+  border: 1px solid red;
+  /* box-sizing: border-box; */
+  box-sizing: content-boxs;
+}
+
+.two {
+  border: 2px solid darkgreen;
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
